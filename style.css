@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #1a2031;
+  color: white;
+}
+/* .hero-bg {
+  background-image: url(img/spacexbg.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+} */
+.nav-link, .nav-item, .navbar-light {
+  color: white !important;
+}
+.page-title {
+  font-size: 52px;
+}
+.text-muted {
+  font-weight: 500;
+}
+.image-container{
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+.img-display {
+ width: 900px;
+ height: 570px;
+
+}
+.details-image{
+  overflow: hidden;
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.negative-margin {
+  margin: -3px 0 0;
+}
+.card-small {
+  max-width: calc(25% - 35px);
+  max-height: 450px;
+  width: calc(25% - 35px);
+  height: 370px;
+  background-color: #343a40;
+}
+
+.card-medium{
+  background-color: #343a40;
+  max-width: 30%;
+
+}
+
+.card-large{
+  background-color: #343a40;
+  max-width: 45%;
+}
+.thumbnail {
+  max-height: 80px;
+  max-width: 80px;
+  height: auto;
+  width: 100%;
+}
+
+
+.card-text {
+  font-size: 12px;
+}
+
+.img-container{
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-overflow{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  max-height: 4 * 1.2em; 
+  text-overflow: ellipsis;
+  white-space: normal; 
+}
+.text-truncate {
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	max-height: 51px;
+	-webkit-line-clamp: 3;
+	white-space: normal;
+}
+.text-truncate-title {
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	max-height: 71px;
+	-webkit-line-clamp: 2;
+	white-space: normal;
+}
+
+.item-description{
+  max-width: 50%;
+}
+
+.list-group-item {
+  font-size: 12px;
+}
+
+.infoP{
+  max-width: 33%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-small {
+    max-width: calc(33% - 30px);
+    width: calc(33% - 30px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-small {
+    max-width: 40%;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card-small {
+    max-width: 80%;
+    width: 80%;
+  }
+}
